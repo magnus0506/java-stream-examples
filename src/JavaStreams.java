@@ -33,7 +33,7 @@ public class JavaStreams {
         System.out.println();
     }
 
-    //2. Integer Stream med skip, den springer alle før skip funktionen over
+    //2. Integer Stream med skip, den springer alle elementer før skip funktionen over
     static void integerStreamSkip() {
         IntStream
                 .range(1, 10)
